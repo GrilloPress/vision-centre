@@ -2,11 +2,13 @@
 
   box-shadow: none;
   border-radius: 0px;
+  border-bottom: 5px solid $brand-primary;
 
 }
 
-.navbar-inverse .navbar-toggle .icon-bar {
-
-  background-color: #FFFFFF;
-
+.navbar-default .navbar-nav>li>a {
+  
+  color: $brand-primary;
+  padding-top: 65px;
+  
 }

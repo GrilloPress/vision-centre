@@ -1,5 +1,5 @@
   <!-- Static navbar -->
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-default">
       <div class="container">
 
         <div class="row">
@@ -11,39 +11,22 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand navbar-brand-small visible-xs" href="#">Sheffield Teaching Hospitals</a>
-
-
-            <a class="navbar-brand hidden-xs" href="#">
-              <% if content_for?(:navbar_title) %>
-                <%= yield_content :navbar_title %>
-                <% else %>
-                Work for us
-              <% end %>
-            </a>
+            
+            <a class="" href="#"><%= image_tag "sheffield-vision-centre-logo.png", height: "100" %></a>
           </div>
-
-          <ul class="nav navbar-nav navbar-right hidden-xs">
-            <% link_to "/index.html" do %>
-                <%= image_tag "logo-white.png", class: "navbar-logo", alt: "logo for the Sheffield Teaching Hospital NHS Foundation Trust" %>
-            <% end %>
-          </ul>
-
-        </div>
-
-        <div class="row">
-
-        </div>
-
-
-
-
-        <div id="navbar" class="navbar-collapse collapse">
+          
+        <div id="navbar" class="navbar-collapse collapse">        
           <ul class="nav navbar-nav">
-            <li> <%= link_to "Home", "index.html" %></li>
-            <li> <%= link_to "About", "working-for-us.html" %></li>
-            <li><a href="#search">Search for Jobs</a></li>
+            <li><a href="#">Price</a></li>
+            <li><a href="#">Our Guarantee</a></li>
           </ul>
+          
+          <% link_to "http://www.sth.nhs.uk/" do %>
+            <%= image_tag "http://www.sth.nhs.uk/images/sheffield-teaching-hospitals.gif", class: "navbar-logo pull-right", alt: "logo for the Sheffield Teaching Hospital NHS Foundation Trust" %>
+          <% end %>
+          
         </div><!--/.nav-collapse -->
+
+        </div>
       </div>
     </nav>
