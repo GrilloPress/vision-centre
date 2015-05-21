@@ -1,39 +1,42 @@
 ---
 title: Sheffield Vision Centre
 ---
+<div id="main" role="main">
 
-<section id="banner">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-sm-8">
-        <%= image_tag "banner.png", width: "100%" %>
-      </div>
-      
-      <div class="col-md-4 col-sm-4">
-        <div class="well">
-          <h1 class="h1-cta">Laser and Refactive Eye Survey</h1>
-          <p>Call 0114 2711564 now to book a free no obligation consultation quoting: post1</p>
-          <a href="tel:01142711564" class="btn btn-warning btn-block">Call now</a>
+  <section id="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-8">
+          <%= image_tag "banner.png", width: "100%" %>
         </div>
-        
-        <blockquote id="pro-quote" class="hidden-sm">
-          I cannot recommend the Vision Centre more highly! Everything from the friendly staff to the treatment made me feel special"
-          <footer>Jenny Faketon</footer>
-        </blockquote>
-      </div>
-      
-    </div>
-  </div>
-</section>
 
-<section id="prices">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <% link_ to "http://www.sheffieldvisioncentre.co.uk/" do %>
-          <%= image_tag "offer_ad.png", width: "100%" %>
-        <% end %>
+        <div class="col-md-4 col-sm-4">
+          <div class="well">
+            <h1 class="h1-cta">Laser and Refactive Eye Survey</h1>
+            <p>Call 0114 2711564 now to book a free no obligation consultation quoting: post1</p>
+            <a href="tel:01142711564" class="btn btn-warning btn-block">Call now</a>
+          </div>
+
+          <blockquote id="pro-quote" class="hidden-sm">
+            I cannot recommend the Vision Centre more highly! Everything from the friendly staff to the treatment made me feel special"
+            <footer>Jenny Faketon</footer>
+          </blockquote>
+        </div>
+
       </div>
     </div>
-  </div>
-</section>
+  </section>
+
+  <section id="prices">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <% link_to "http://www.sheffieldvisioncentre.co.uk/" do %>
+            <%= image_tag "offer_ad.png", width: "100%" %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</div>
