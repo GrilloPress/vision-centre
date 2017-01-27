@@ -12,18 +12,19 @@
               <span class="icon-bar"></span>
             </button>
             
-            <a href="http://www.sheffieldvisioncentre.co.uk/"><%= image_tag "sheffield-vision-centre-logo.png", height: "80", class: "svc-logo" %></a>
+            <a target="_blank" href="http://www.sheffieldvisioncentre.co.uk/"><%= image_tag "sheffield-vision-centre-logo.png", height: "80", class: "svc-logo" %></a>
           </div>
           
         <div id="navbar" class="navbar-collapse collapse"> 
-          <% link_to "http://www.sth.nhs.uk/" do %>
+          <% link_to "http://www.sth.nhs.uk/", target: '_blank' do %>
             <%= image_tag "http://www.sth.nhs.uk/images/sheffield-teaching-hospitals.gif", class: "navbar-logo pull-right hidden-xs", alt: "logo for the Sheffield Teaching Hospital NHS Foundation Trust" %>
           <% end %>
           <ul class="nav navbar-nav">
             <li><a href="#selling-points">Why Choose the Vision Centre?</a></li>
             <li><a id="buttonHeadingOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Get the right treatment</a></li>
-            <li><a id="buttonHeadingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">Our treatments</a></li>
-            <li><a id="buttonHeadingThree" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseOne">Meet our Surgeons</a></li>
+            <li><a id="buttonHeadingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Our treatments</a></li>
+            <li><a id="buttonHeadingThree" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Meet our Surgeons</a></li>
+            <li><a id="buttonHeadingFour" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">How to find us</a></li>
           </ul>
           
         </div><!--/.nav-collapse -->

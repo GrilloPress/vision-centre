@@ -15,3 +15,9 @@ jQuery("#buttonHeadingThree").click(function() {
         scrollTop: jQuery("#headingThree").offset().top
     }, 2000);
 });
+
+jQuery("#buttonHeadingFour").click(function() {
+    jQuery('html, body').animate({
+        scrollTop: jQuery("#headingFour").offset().top
+    }, 2000);
+});
