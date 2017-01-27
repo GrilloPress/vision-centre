@@ -23,7 +23,7 @@
   margin-top: 25px;
   text-align: center;
   
-  h4 {
+  h3, h4 {
   
   color: #17479E;
   font-size: 31px;
@@ -35,6 +35,34 @@
   height: 300px
    
   
+  }
+  
+  .panel-body {
+    
+    text-align: left;
+    
+    p {
+      
+      font-size: 18px;
+    }
+    
+    h4 {
+      
+      font-size: 22px;
+      color: #17479E;
+    }
+    
+    ol, ul {
+      
+      font-size: 18px;
+
+    }
+    
+    span {
+      
+      color: #EF6C00;
+    }
+    
   }
   
   @media screen and (max-width: 700px){
