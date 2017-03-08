@@ -5,4 +5,29 @@
   padding: 15px;
   border-top: 1px solid #efefef;
   
+  @media screen and (max-width: $screen-xs){
+    
+    margin-bottom: 50px;
+    
+  }
+  
+}
+
+.mobile-footer {
+  
+  display: none;
+  
+  @media screen and (max-width: $screen-xs){
+      
+      display: block;
+      background-color: #f9f9f9;
+      position: fixed;
+      bottom: 0;
+      padding: 10px;
+      width: 100%;
+      z-index: 1050;
+      border-top: 1px solid #efefef;
+  
+    }
+  
 }

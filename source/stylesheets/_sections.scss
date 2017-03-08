@@ -25,14 +25,21 @@
   
   h3, h4 {
   
-  color: #17479E;
-  font-size: 31px;
+    color: #17479E;
+    font-size: 31px;
+    font-weight: 700;
   
   }
 
   .well {
   
-  height: 300px
+    min-height: 300px;
+      
+      p {
+        
+          font-size: 19px;
+        
+        }
    
   
   }
@@ -68,7 +75,8 @@
   @media screen and (max-width: 700px){
       
       .well {
-        height: 240px;
+        
+        min-height: auto;
         
       }
       

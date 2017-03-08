@@ -8,10 +8,15 @@ h1.h1-cta {
 
 h2.h2-cta {
   
-  font-size: 26px;
+  font-size: 30px;
   text-transform: uppercase;
   text-align: center;
   color: $brand-primary;
   margin: 5px 0;
   
+}
+
+body {
+  
+  -webkit-font-smoothing: antialiased;
 }
