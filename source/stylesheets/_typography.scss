@@ -20,3 +20,20 @@ body {
   
   -webkit-font-smoothing: antialiased;
 }
+
+blockquote#pro-quote {
+  
+  padding: 4.5px 23px;
+  margin: 0px 0 10px;
+  font-size: 17px;
+  border-left: 5px solid darken(#17479E, 10%);
+  background-color: #17479E;
+  color: white;
+  
+}
+
+blockquote footer, blockquote small, blockquote .small {
+  
+  color: white;
+  
+}
